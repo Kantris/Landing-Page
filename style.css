@@ -1,0 +1,166 @@
+html {
+    font-family: roboto, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /*justify-content: space-between;*/
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header, .footer, .one {
+    background-color: #1F2937;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15%;
+    gap: 12px;
+    color: #E5E7EB;
+    align-items: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.Header-Link-One {
+    margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.one {
+    display: flex;
+    padding: 30px 15%;
+}
+
+.one-info {
+    width: 35%;
+    flex: 1;
+}
+
+.one-img {
+    width: 35%;
+    height: auto;
+    flex: 1;
+}
+
+.important-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    padding-right: 20px;
+}
+
+.less-important {
+    font-size: 18px;
+    color:  #E5E7EB;
+    padding-right: 10px;
+}
+
+button, .cta {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+}
+
+button {
+    border: 0px;
+    padding: 6px 24px;
+    margin: 8px 0px;
+}
+
+.two-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding:  20px;
+}
+
+.two-content {
+    display: flex;
+    margin: 0 18% 40px 18%;
+}
+
+.two-subcontent {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.two-img {
+    box-sizing: border-box;
+    flex: 1 1 0;
+    max-width: 16vw;
+    padding: 8px;
+}
+
+.three {
+    font-weight: 100;
+    padding: 40px 15%;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.three-thor {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.four {
+    background-color: #3882F6;
+    margin: 40px 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.four-text {
+    padding: 40px 60px;
+}
+
+.cta {
+    font-weight: bold;
+    font-size: 20;
+}
+
+.cta-sub {
+    color:#E5E7EB;
+}
+.button-two {
+    margin-left: auto;
+    margin-right: 40px;
+    flex-grow: 0;
+    border: 2px white solid;
+    padding: 8px 24px;
+}
